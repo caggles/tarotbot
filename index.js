@@ -29,7 +29,7 @@ client.setProvider(
 
 client.once('ready', () => {
 	console.log(`Logged in as ${client.user.tag}! (${client.user.id})`);
-	client.user.setActivity('tarot');
+	client.user.setActivity('tarot help');
 });
 
 client.login(process.env.BOT_TOKEN);
